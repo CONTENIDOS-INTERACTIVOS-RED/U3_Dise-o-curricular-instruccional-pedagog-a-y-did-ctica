@@ -22,9 +22,9 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 En la actualidad, diseñar experiencias educativas efectivas en entornos digitales requiere comprender a profundidad los fundamentos del currículo y la instrucción. En esta unidad, se abordarán los principios esenciales del diseño curricular instruccional aplicados a la educación virtual, reconociendo su impacto en la planificación, el aprendizaje y la evaluación en línea. A lo largo del estudio, se analizarán modelos, tendencias y componentes clave que permiten construir propuestas formativas flexibles, inclusivas y centradas en el estudiante.
+              p.descripcion.mb-4 La transformación digital en la educación ha impulsado nuevas formas de planificar y evaluar la enseñanza, especialmente en los entornos virtuales de aprendizaje. En esta unidad, se profundiza en los principios que orientan la planificación curricular centrada en el estudiante, promoviendo la alineación constructiva, la flexibilidad, la inclusión y la accesibilidad como ejes fundamentales.
 
-              p #[b ¡Prepárese para transformar la educación digital con estrategias pedagógicas innovadoras y pertinentes!]
+              p #[b ¡Prepárese para diseñar experiencias educativas significativas, innovadoras y centradas en el estudiante!]
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

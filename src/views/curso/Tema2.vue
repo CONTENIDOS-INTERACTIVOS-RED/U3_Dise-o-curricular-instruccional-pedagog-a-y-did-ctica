@@ -1,113 +1,175 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(:subTitulo="'2. Modelos de diseño curricular para entornos virtuales'")
+    BannerInterno(:subTitulo="'2. Evaluación y seguimiento del diseño instruccional'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
       .row.mb-4
-        .col-2.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-39.png', alt='Texto que describa la imagen')
-        .col-12.col-xl-10.d-flex
-          p.my-auto En el ámbito de la educación virtual, diversos modelos de diseño curricular proporcionan marcos conceptuales para la planificación y el desarrollo de programas y cursos en línea. <b>Un modelo curricular se define como una estructura conceptual y organizativa que sirve como guía para diseñar, desarrollar e implementar planes de estudio y programas educativos</b>, orientando las decisiones sobre qué contenido enseñar, cómo enseñarlo y cómo evaluar el aprendizaje. Estos modelos pueden variar según los enfoques pedagógicos, las filosofías educativas y los objetivos de aprendizaje que se persigan:
+        .col-4.d-none.d-xl-block
+          img(src='@/assets/curso/unidad/img-14.png', alt='Texto que describa la imagen')
+        .col-12.col-xl-8
+          p.mb-4 La evaluación y el seguimiento del diseño instruccional constituyen la brújula que guía la calidad del aprendizaje en los entornos virtuales. Estos procesos no son eventos aislados al final de un curso, sino una espiral continua de reflexión y ajuste que se desarrolla a lo largo de toda la implementación del currículo (Anderson, 2011).
+          .d-flex.bg-verde.p-4.flex-column.flex-md-row.mb-4(data-aos='fade-up')
+            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-15.svg', alt='Texto descriptivo de la imagen')
+            .my-auto.p-4.p-xl-0
+              p.pe-xl-3.mb-0 Su propósito fundamental es recopilar información valiosa sobre la efectividad de las estrategias pedagógicas, la usabilidad de los recursos digitales y el progreso del aprendizaje de los estudiantes, con el fin último de optimizar la experiencia educativa.
+          span Los tipos de evaluación en el diseño instruccional, son:
+
+      .row.position-relative.mb-5.py-4.bg-fondo-slider.bg-full-width
+        div.px-4.px-md-5.py-md-3
+          SlyderA(tipo="b").bg-white
+            .row.p-4.px-md-5.py-lg-5.justify-content-between
+              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+                p.text-bold Diagnóstica
+                p Esta evaluación se despliega al inicio del curso, como un escaneo inicial para conocer a fondo los saberes previos, los intereses particulares y las necesidades específicas de los estudiantes. La información recabada en esta etapa es crucial para realizar ajustes precisos en el diseño del curso, adaptar los contenidos y personalizar la enseñanza, buscando conectar el nuevo conocimiento con el bagaje existente de los aprendices. En un EVA, esto puede lograrse a través de cuestionarios en línea, foros de presentación con preguntas orientadoras o actividades exploratorias sobre los temas centrales.
+              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/unidad/img-16.png', alt='Texto que describa la imagen')
+            .row.p-4.px-md-5.py-lg-5.justify-content-between
+              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+                p.text-bold Formativa
+                p La evaluación formativa es el hilo conductor que acompaña al estudiante a lo largo de su proceso de aprendizaje, actuando como un espejo que refleja sus avances, señala sus dificultades y revela oportunidades de mejora (López, 2018). Su rasgo distintivo es la retroalimentación constante y oportuna, que puede manifestarse en la revisión detallada de actividades entregadas, la moderación de discusiones en foros, la observación de la participación en tareas colaborativas, o la utilización de quizzes interactivos con respuestas explicativas. En el contexto virtual, herramientas como la analítica de aprendizaje pueden ofrecer información valiosa sobre el compromiso y las áreas donde los estudiantes necesitan más apoyo.
+              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/unidad/img-17.png', alt='Texto que describa la imagen')
+            .row.p-4.px-md-5.py-lg-5.justify-content-between
+              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+                p.text-bold Sumativa
+                p La evaluación sumativa se aplica al finalizar una unidad de aprendizaje o al concluir el curso completo, con el objetivo primordial de verificar el grado de cumplimiento de los objetivos de aprendizaje previamente establecidos. Generalmente, se expresa en calificaciones numéricas o en la emisión de certificaciones que acrediten el aprendizaje alcanzado. En un EVA, esto puede tomar la forma de exámenes en línea, la entrega de proyectos finales digitales, la creación de portafolios electrónicos que evidencian el aprendizaje a lo largo del tiempo, o la participación en evaluaciones entre pares con criterios definidos (Domínguez-Rodríguez, 2022).
+              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/unidad/img-18.png', alt='Texto que describa la imagen')
+
+      #t_2_1.titulo-segundo(data-aos="flip-up")
+        div.d-flex
+          span.me-3 2.1
+          h2 Seguimiento y monitoreo
 
       .row.mb-4
-        .col-12.col-lg-7.col-xl-8
-          AcordionA(tipo="b")
-            .div(titulo="Modelo tecnológico")
-              p En el ámbito de la educación virtual, uno de los modelos más utilizados es el modelo tecnológico, el cual se enfoca en la definición de objetivos educativos específicos, la identificación de contenidos que permitan alcanzarlos y la selección de recursos y medios adecuados para su implementación. Este modelo se caracteriza por su estructura lineal, su enfoque en la eficiencia del proceso educativo y la evaluación cuantificable de los resultados, lo que lo convierte en una herramienta útil para la planificación y el control del aprendizaje.
-            .div(titulo="Modelo comunicativo-interactivo ")
-              p El modelo comunicativo-interactivo se distingue por utilizar la investigación científica para organizar el proceso de aprendizaje, otorgando al estudiante un papel activo, reflexivo y responsable hacia su propio aprendizaje y su realidad. Este enfoque se alinea mejor con las filosofías pedagógicas constructivistas y conectivistas, que son particularmente relevantes en entornos virtuales donde la interacción y la colaboración juegan un papel crucial.
-            .div(titulo="Modelo curricular basado en competencias")
-              p El modelo curricular basado en competencias ha ganado una gran relevancia en la educación virtual, dado que se centra en el desarrollo de habilidades y capacidades específicas que los estudiantes deben adquirir para desempeñarse de manera efectiva en contextos reales. Este modelo exige colocar al estudiante en el centro del proceso de aprendizaje, otorgándole un papel activo en la construcción de sus propias competencias. Los objetivos del currículo se definen en términos de competencias y capacidades, abarcando el desarrollo de habilidades cognitivas, motrices e interpersonales. Las competencias se entienden como comportamientos y actitudes transversales a diferentes ámbitos de la actividad personal y laboral, integrando conocimientos ("saber"), habilidades ("saber hacer") y actitudes ("saber ser"). El diseño curricular basado en competencias se centra en el perfil profesional de egreso, recogiendo las necesidades y realidades del ámbito internacional y nacional en diversos campos. Un enfoque de diseño curricular basado en competencias considera tanto las competencias previas de los estudiantes como las competencias que se espera que adquieran al finalizar el programa.
-            .div(titulo="Modelo basado en resultados de aprendizaje")
-              p Este modelo se centra en definir claramente lo que los estudiantes deben saber y ser capaces de hacer al finalizar un curso o programa. Para Bobbit, el currículo se presenta como una descripción de objetivos a lograr a través de procedimientos específicos, y Taylor enfatiza que el currículo debe responder a los fines, a los logros de experiencias, a los modos de alcanzar esos fines y a las maneras de comprobarlo. Los resultados de aprendizaje deben enunciarse de manera clara y precisa, mostrando conductas observables.<br><br>En este modelo, los resultados de aprendizaje se convierten en el eje articulador, guiando la secuencia de las actividades, la selección de los recursos y las estrategias de evaluación. Se recomienda que la redacción de los logros de aprendizaje se oriente hacia el logro de procesos cognitivos complejos y sea específica en su formulación. Los logros o resultados de aprendizaje están orientados a un fin, centrados en el estudiante, enfatizando su éxito presente y futuro, y demandando objetivos claros, explícitos y significativos, incorporando retroalimentación continua para la evaluación y la revisión.
+        .col-3.d-none.d-xl-block
+          img(src='@/assets/curso/unidad/img-19.png', alt='Texto que describa la imagen')
+        .col-12.col-xl-9
+          p.mb-4 El seguimiento y monitoreo implican una observación sistemática y continua del desarrollo del curso virtual. Esto abarca el análisis del progreso general, el nivel de participación activa de los estudiantes en las diferentes actividades propuestas, la funcionalidad y usabilidad de las herramientas tecnológicas integradas y la eficacia pedagógica de los materiales (Sagastume, 2019).
+          .mb-4.bg-amarillo.p-4(data-aos="fade-left")
+            span Para llevar a cabo este seguimiento de manera efectiva en un EVA, se pueden emplear diversos instrumentos, tales como bitácoras de seguimiento del docente, registros automáticos de la actividad de los estudiantes en la plataforma (logs de acceso, tiempo dedicado a las tareas, interacciones en foros), encuestas de satisfacción periódicas, y el análisis cualitativo de las interacciones en los espacios de comunicación.
+          span En la siguiente tabla, observe cada aspecto del seguimiento:
 
-        .col-12.col-lg-5.col-xl-4.d-none.d-lg-block(data-aos="zoom-in")
-          img(src='@/assets/curso/unidad/img-40.png', alt='Texto que describa la imagen')
+      p.mb-4 <b>Tabla 2.</b> Aspecto del seguimiento
 
-      p.mb-4 En la siguiente tabla se presenta una comparación de las características principales, ventajas y desventajas de los modelos de diseño curricular basados en competencias y por resultados de aprendizaje, en el contexto de los entornos virtuales:
-
-      p.mb-4 <b>Tabla 1.</b> Comparación de los modelos de diseño curricular, basado en competencias y resultados de aprendizaje
-
-      .tabla-a
+      .tabla-a.mb-4
         table
           thead
             tr
-              th(width="20%").bg-morado-2.text-white.text-center Característica
-              th.bg-morado-2.text-white.text-center Modelo basado en competencias
-              th.bg-morado-2.text-white.text-center Modelo por resultados de aprendizaje
+              th.text-bold.bg-morado-2.text-white.text-center Aspecto del seguimiento 
+              th.text-bold.bg-morado-2.text-white.text-center Descripción
           tbody
             tr
-              td.text-bold Enfoque
-              td.text-center Desarrollo de habilidades y capacidades.
-              td.text-center Logro de conocimientos y habilidades específicas.
+              td.text-bold.bg-morado-claro  Participación de los estudiantes.
+              td.bg-morado-claro Frecuencia y calidad de las interacciones.
             tr
-              td.text-bold Objetivos
-              td.text-center Definidos como competencias integradas.
-              td.text-center Definidos como resultados observables y medibles.
+              td.text-bold.bg-morado-claro Progreso del aprendizaje.
+              td.bg-morado-claro Calificaciones y desempeño en actividades.
             tr
-              td.text-bold Evaluación
-              td.text-center Basada en el desempeño y la aplicación.
-              td.text-center Puede incluir diversas metodologías.
+              td.text-bold.bg-morado-claro Desempeño del profesor.
+              td.bg-morado-claro Calidad de la retroalimentación, claridad de las explicaciones.
             tr
-              td.text-bold Énfasis
-              td.text-center Aplicación práctica y relevancia real.
-              td.text-center Claridad y medición de logros.
+              td.text-bold.bg-morado-claro Funcionamiento de la plataforma.
+              td.bg-morado-claro Disponibilidad, usabilidad y accesibilidad.
             tr
-              td.text-bold Flexibilidad
-              td.text-center Permite rutas de aprendizaje personalizadas.
-              td.text-center Estructura clara para el diseño y la evaluación.
+              td.text-bold.bg-morado-claro Calidad de los materiales.
+              td.bg-morado-claro Claridad, relevancia y actualidad de los contenidos.
             tr
-              td.text-bold Ventajas en entornos virtuales
-              td.text-center Ideal para desarrollar habilidades digitales y evaluaciones auténticas.
-              td.text-center Facilita la alineación con actividades y recursos en línea; uso de LMS.
-            tr
-              td.text-bold Desventajas en entornos virtuales
-              td.text-center Definición y evaluación complejas en línea; requiere recursos para evaluaciones de desempeño.
-              td.text-center Puede enfocarse más en la adquisición de conocimiento que en habilidades prácticas.
+              td.text-bold.bg-morado-claro Satisfacción de los estudiantes.
+              td.bg-morado-claro Percepciones y opiniones sobre el curso.
+
+      #t_2_2.titulo-segundo(data-aos="flip-up")
+        div.d-flex
+          span.me-3 2.2
+          h2 Indicadores de logro
+
+      .row.bg-azul.p-4.py-xl-0.mb-4(data-aos='fade-up')
+        .col-12.col-xl-8.d-flex
+          .my-auto
+            span Para que la evaluación sea verdaderamente efectiva y significativa, es imprescindible definir indicadores de logro que sean claros, medibles y directamente observables. Estos indicadores deben estar intrínsecamente alineados con los objetivos de aprendizaje que se persiguen y con las competencias que se han definido en el diseño curricular. En un EVA, los indicadores de logro pueden referirse a la calidad de las contribuciones en foros de discusión (según rúbricas específicas), la precisión y profundidad del análisis en ensayos o informes digitales, el nivel de colaboración demostrado en proyectos grupales en línea, o la puntuación obtenida en quizzes interactivos que evalúan la comprensión conceptual.
+        .col-4.d-none.d-xl-block
+          img(src='@/assets/curso/unidad/img-20.png', alt='Texto descriptivo de la imagen')  
+
+      #t_2_3.titulo-segundo(data-aos="flip-up")
+        div.d-flex
+          span.me-3 2.3
+          h2 Mejora continua
 
       .row.mb-4
         .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-41.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/unidad/img-21.png', alt='Texto que describa la imagen')
         .col-12.col-xl-8
-          .bg-amarillo.p-4.mb-4(data-aos='fade-up')
-            span Un ejemplo de la aplicación del modelo basado en competencias en un entorno virtual, podría ser un curso de desarrollo de software, donde los estudiantes deben demostrar competencias específicas en programación, a través de proyectos prácticos y la creación de un portafolio en línea. En contraste, un curso de historia en línea diseñado bajo el modelo por resultados de aprendizaje podría establecer resultados claros como "analizar las causas de la Revolución Francesa" y evaluar este resultado a través de ensayos, foros de discusión y exámenes en línea. La elección del modelo dependerá de los objetivos específicos del curso y de la filosofía pedagógica de la institución.
-          span Revisemos un resumen sobre estos tipos de modelos:
+          p.mb-4 El proceso de evaluación y seguimiento no debe ser un fin en sí mismo, sino un motor para la mejora permanente del curso virtual. Esto implica un ciclo continuo de recolección sistemática de datos, análisis reflexivo de la información obtenida y la utilización de estos hallazgos para realizar ajustes oportunos y fundamentados en el diseño instruccional (Bates, 2015).
+          .d-flex.bg-verde.p-4.flex-column.flex-md-row.mb-4(data-aos='fade-up')
+            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-22.svg', alt='Texto descriptivo de la imagen')
+            .my-auto.p-4.p-xl-0
+              p.pe-xl-3.mb-0 En un EVA, la mejora continua puede traducirse en la modificación de actividades que generan baja participación, la revisión de materiales que resultan confusos para los estudiantes (identificado a través del feedback o la analítica), o la incorporación de nuevas herramientas digitales que faciliten la interacción y el aprendizaje.
 
-      ImagenInfografica.color-secundario.mb-5.bg-white
+      p.mb-4 Con el fin de que repase los temas vistos sobre la evaluación y seguimiento del diseño instruccional, observe la siguiente infografía:
+
+      ImagenInfografica.color-secundario.mb-4.bg-white
         template(v-slot:imagen)
           figure
-            img(src='@/assets/curso/unidad/img-42.png', alt='Descripción de la imagen')
-        .tarjeta.bg-white.p-4(x='33.9%' y='25%' numero='+')
-          .h5.mb-2 Modelo basado en competencias
-          p Se enfoca en habilidades aplicadas a contextos reales y articula necesidades del entorno profesional.<br><br>Útil para formar profesionales adaptables y competentes.
-        .tarjeta.bg-white.p-4(x='66%' y='32%' numero='+')
-          .h5.mb-2 Modelo basado en resultados
-          p Define claramente los saberes y habilidades observables para asegurar el logro del aprendizaje.<br><br>Clave en sistemas de educación por logros.
-        .tarjeta.bg-white.p-4(x='64%' y='73.2%' numero='+')
-          .h5.mb-2 Modelo comunicativo-interactivo
-          p Centrado en el estudiante activo, promueve la reflexión y colaboración en entornos dinámicos.<br><br>Perfecto para entornos virtuales dinámicos y participativos.
-        .tarjeta.bg-white.p-4(x='36%' y='72.9%' numero='+')
-          .h5.mb-2 Modelo tecnológico
-          p Enfoque lineal y estructurado basado en objetivos conductuales, priorizando eficiencia y evaluación de resultados.<br><br>Ideal para procesos formativos con metas claras y medibles.
+            img(src='@/assets/curso/unidad/img-23.png', alt='Descripción de la imagen')
+        .tarjeta.bg-white.p-4(x='7%' y='31%' numero='+')
+          .h5.mb-3 Tipos de evaluación en un diseño instruccional
+          div.d-flex
+            img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').m-2
+            p.mb-0 Diagnóstica.
+          div.d-flex
+            img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').m-2
+            p.mb-0 Formativa.
+          div.d-flex
+            img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').m-2
+            p.mb-0 Sumativa.
+          div.d-flex
+            img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').m-2
+            p.mb-0 Herramientas: exámenes en línea, proyectos, portafolios digitales, entre otras.
+        .tarjeta.bg-white.p-4(x='89%' y='33%' numero='+')
+          .h5.mb-2 Indicadores de logro de un diseño instruccional
+          p.mb-3 Deben ser claros, medibles y alineados con los objetivos del curso.
+          p.mb-3 Ejemplos en EVA:
+          div.d-flex
+            img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').m-2
+            p.mb-0 Calidad de aportes en foros.
+          div.d-flex
+            img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').m-2
+            p.mb-0 Profundidad de análisis en ensayos.
+          div.d-flex
+            img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').m-2
+            p.mb-0 Colaboración en proyectos grupales.
+          div.d-flex
+            img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').m-2
+            p.mb-0 Resultados en quizzes.
+        .tarjeta.bg-white.p-4(x='84.5%' y='53%' numero='+')
+          .h5.mb-3 Mejora continua
+          p.mb-3 La evaluación y el monitoreo alimentan mejoras en el diseño, implica recolectar datos, analizar y hacer ajustes.
+          p.mb-3 Acciones:
+          div.d-flex
+            img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').m-2
+            p.mb-0 Modificar actividades con baja participación.  
+          div.d-flex
+            img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').m-2
+            p.mb-0 Revisar materiales confusos.
+          div.d-flex
+            img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').m-2
+            p.mb-0 Incluir nuevas herramientas digitales que faciliten el aprendizaje.
+        .tarjeta.bg-white.p-4(x='10%' y='71%' numero='+')
+          .h5.mb-3 Seguimiento y monitoreo de un diseño instruccional
+          div.d-flex
+            img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').m-2
+            p.mb-0 Observación continua del desarrollo del curso.
+          div.d-flex
+            img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').m-2
+            p.mb-0 Evaluación del progreso, participación, eficacia y usabilidad.
+          div.d-flex
+            img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').m-2
+            p.mb-0 Herramientas: bitácoras del docente, logs de acceso y tiempo en plataforma, encuestas de satisfacción, análisis de interacciones en foros.
 
-      
-      .bg-full-width.border-top-9-azul
-        .px-5.pt-5.pb-0
-          h2 Material complementario
-          .row
-            .col-12.col-md-6.col-lg-8
-              p.d-flex.my-4
-                img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-                a.text-small.text-primary(target="_blank", href="https://www.scielo.org.mx/scielo.php?pid=S1665-26732012000300007&script=sci_arttext") Martínez Alonso, G. F., Báez Villarreal, E., Garza Garza, J. Á., Treviño Cubero, A., & Estrada Salazar, F. (2012). Implementación de un modelo de diseño curricular basado en competencias, en carreras de ingeniería. Innovación educativa (México, DF), 12(60), 87-103.
-              p.d-flex.my-4
-                img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-                a.text-small.text-primary(target="_blank", href="https://youtu.be/Ipn5S_eiR9s?si=hT8O5RqxTramH-EQ") [Vídeo] ULLaudiovisual - Universidad de La Laguna. (2022, 11 de noviembre) Modelos didácticos de las aulas virtuales: teoría y recomendaciones prácticas.
-            .col-12.col-md-6.col-lg-3
-              figure
-                img(src='@/assets/componentes/material-complementario.svg' alt='Imagen de material complementario')
-
-
-      
+      p
      
   
   </template>

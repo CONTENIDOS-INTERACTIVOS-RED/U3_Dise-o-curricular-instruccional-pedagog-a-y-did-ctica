@@ -3,51 +3,48 @@
   BannerInterno(subTitulo="Introducción")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
 
-    .row.bg-fondo-1.bg-full-width.py-4.mb-4
-      div.px-5.pb-md-3
-
-        .row.mb-4
-          .col-4.d-none.d-xl-block
-            img(src='@/assets/curso/unidad/img-1.png', alt='Texto que describa la imagen')
-          .col-12.col-xl-8
-            p.mb-4 En esta unidad se abordan los fundamentos conceptuales del diseño curricular instruccional, aplicados al contexto de los entornos virtuales de aprendizaje. En un escenario educativo cada vez más mediado por tecnologías digitales, resulta esencial comprender cómo estos principios permiten construir experiencias formativas accesibles, efectivas y transformadoras.
-            .d-flex.bg-verde.p-4.flex-column.flex-md-row.mb-4(data-aos='fade-up')
-              img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-2.svg', alt='Texto descriptivo de la imagen')
-              .my-auto.p-4.p-xl-0
-                p.pe-xl-3.mb-0 A través del estudio de esta unidad, usted podrá analizar los elementos claves del currículo y su relación con el diseño instruccional, comprendiendo cómo se adaptan a las características particulares de la educación virtual. Se examinarán modelos, enfoques y tendencias que orientan la planificación pedagógica en contextos digitales, con énfasis en la interacción, la motivación y la evaluación en línea.
-            span La educación virtual ha pasado de ser una alternativa complementaria a consolidarse como un pilar de la formación contemporánea. Por ello, esta unidad ofrece herramientas conceptuales y metodológicas que le permitirán reflexionar críticamente sobre los desafíos y oportunidades del diseño curricular en el siglo XXI.
-
-        p.mb-4 Al finalizar, usted estará en capacidad de identificar y aplicar principios del diseño instruccional, coherentes con las demandas y posibilidades de la enseñanza en entornos digitales.
-        p.mb-4 En esta unidad, los temas a tratar incluirán:
-        .row.mb-4.justify-content-center
-          .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
-            .custom-image-card.d-flex.flex-column.p-4.py-md-5
-              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-3.svg', style='width: 80px')
-              p.text-bold.mb-4.text-center Primer tema
-              p.px-1.text-small.mb-0.text-center Conceptos básicos de currículo y diseño instruccional.
-          .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
-            .custom-image-card.d-flex.flex-column.p-4.py-md-5
-              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-4.svg', style='width: 80px')
-              p.text-bold.mb-4.text-center Segundo tema
-              p.px-1.text-small.mb-0.text-center Modelos de diseño curricular: basado en competencias, por resultados de aprendizaje, entre otros.
-          .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
-            .custom-image-card.d-flex.flex-column.p-4.py-md-5
-              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-5.svg', style='width: 80px')
-              p.text-bold.mb-4.text-center Tercer tema
-              p.px-1.text-small.mb-0.text-center Componentes del currículo y su adaptación a la educación virtual.
-          .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
-            .custom-image-card.d-flex.flex-column.p-4.py-md-5
-              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-6.svg', style='width: 80px')
-              p.text-bold.mb-4.text-center Cuarto tema
-              p.px-1.text-small.mb-0.text-center Tendencias en educación digital y su impacto en el diseño curricular.
 
     .row.mb-4
-      .col-12.col-xl-7
-        .bg-morado-oscuro.p-4.h-100.d-flex(data-aos='fade-right')
-          p.text-white.my-auto Se espera que usted participe activamente en las actividades propuestas, que incluyen lecturas, análisis de casos y discusiones orientadas a promover un aprendizaje significativo. Aunque no se requieren conocimientos previos avanzados, contar con una comprensión básica sobre el diseño curricular y la instrucción en entornos virtuales, será de gran utilidad para asimilar con mayor profundidad, los conceptos que se desarrollarán a lo largo de la unidad.
-      .col-5.d-none.d-xl-block
-        img(src='@/assets/curso/unidad/img-7.png', alt='Texto que describa la imagen')
+      .col-4.d-none.d-xl-block
+        img(src='@/assets/curso/unidad/img-1.png', alt='Texto que describa la imagen')
+      .col-12.col-xl-8
+        p.mb-4 La educación virtual exige procesos de planificación y evaluación curricular rigurosos, intencionados y centrados en las necesidades del estudiante en la actualidad. La transformación digital y los avances en pedagogía, han generado un entorno dinámico que requiere un diseño curricular flexible, inclusivo y adaptable. En esta unidad, se exploran los fundamentos que guían la planificación curricular en Entornos Virtuales de Aprendizaje (EVA), con énfasis en el enfoque centrado en el estudiante, la alineación constructiva de objetivos, contenidos, métodos y evaluaciones, así como en la integración de herramientas tecnológicas pertinentes.
+        .d-flex.bg-amarillo.p-4.flex-column.flex-md-row.mb-4(data-aos='fade-up')
+          img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-2.svg', alt='Texto descriptivo de la imagen')
+          .my-auto.p-4.p-xl-0
+            p.pe-xl-3.mb-0 Además, se aborda la evaluación como un proceso continuo e integral que permite retroalimentar tanto al estudiante como al docente, promover la mejora del diseño instruccional y asegurar el logro de los objetivos de aprendizaje. También se revisan herramientas digitales que facilitan la planificación, ejecución y monitoreo de actividades en entornos virtuales, y se proponen instrumentos de evaluación coherentes con las competencias y resultados esperados.
 
+    .row.bg-fondo-1.bg-full-width.py-4.mb-4
+      div.px-5
+
+        p.mb-4 Esta unidad busca brindar criterios y estrategias prácticas para diseñar experiencias educativas efectivas en EVA, sustentadas en metodologías activas y recursos digitales apropiados. A través del análisis de modelos y ejemplos aplicados, se fortalece la capacidad de los docentes para planificar, gestionar y evaluar su quehacer pedagógico en entornos virtuales, promoviendo así una educación de calidad, accesible y pertinente.
+        p.mb-4 Contenidos de la unidad:
+        .row
+          .col-10.col-md-6.col-lg-4.col-xl-3.mb-4.mx-auto(data-aos="fade-right")
+            div.custom-image-card.rounded-8px
+              img.mb-4(src='@/assets/curso/unidad/img-3.png', alt='Texto que describa la imagen')
+              div.mb-4.px-4
+                p.text-small.px-4.text-center.pb-2 Principios de planificación curricular en educación virtual.
+          .col-10.col-md-6.col-lg-4.col-xl-3.mb-4.mx-auto(data-aos="fade-up")
+            div.custom-image-card.rounded-8px
+              img.mb-4(src='@/assets/curso/unidad/img-4.png', alt='Texto que describa la imagen')
+              div.mb-4.px-4
+                p.text-small.px-4.text-center.pb-2 Evaluación y seguimiento del diseño instruccional.
+          .col-10.col-md-6.col-lg-4.col-xl-3.mb-4.mx-auto(data-aos="fade-down")
+            div.custom-image-card.rounded-8px
+              img.mb-4(src='@/assets/curso/unidad/img-5.png', alt='Texto que describa la imagen')
+              div.mb-4.px-4
+                p.text-small.px-4.text-center.pb-2 Herramientas digitales para el diseño y la gestión curricular.
+          .col-10.col-md-6.col-lg-4.col-xl-3.mb-4.mx-auto(data-aos="fade-left")
+            div.custom-image-card.rounded-8px
+              img.mb-4(src='@/assets/curso/unidad/img-6.png', alt='Texto que describa la imagen')
+              div.mb-4.px-4
+                p.text-small.px-4.text-center.pb-2 Diseño de instrumentos de evaluación del aprendizaje en entornos virtuales.
+
+    .d-flex.bg-morado-oscuro.bg-full-width.p-4.flex-column.flex-md-row.mb-4(data-aos='fade-up')
+      img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-7.svg', alt='Texto descriptivo de la imagen')
+      .my-auto.p-4.p-xl-0
+        p.px-4.mb-0.text-white Se espera que participe activamente en las actividades propuestas, que incluyen lecturas y discusiones, entre otros, orientadas a promover un aprendizaje significativo.<br>¡Muchos éxitos en esta experiencia de aprendizaje!
     p 
 
 </template>

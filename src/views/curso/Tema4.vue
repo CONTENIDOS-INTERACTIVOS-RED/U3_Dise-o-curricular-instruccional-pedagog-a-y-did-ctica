@@ -1,29 +1,22 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(:subTitulo="'4. Tendencias actuales en educación digital y su impacto en el diseño curricular'")
+    BannerInterno(:subTitulo="'4. Diseño de instrumentos de evaluación del aprendizaje en entornos virtuales'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
+
 
       .row.mb-4
         .col-12.col-xl-7
-          .bg-morado-oscuro.p-4(data-aos='fade-up')
-            span.text-white El campo de la educación digital se encuentra en constante evolución, impulsado por los avances tecnológicos y las nuevas comprensiones sobre cómo aprenden las personas. Varias tendencias actuales están teniendo un impacto significativo en la planificación y el diseño curricular para entornos virtuales. Entre estas tendencias destacan el aprendizaje personalizado, el microaprendizaje, la gamificación y el uso de la inteligencia artificial.
+          .bg-morado-oscuro.p-4(data-aos="fade-right")
+            span.text-white Evaluar el aprendizaje en entornos virtuales exige el diseño de instrumentos que sean meticulosamente estructurados, intrínsecamente pertinentes y estrechamente alineados con los resultados de aprendizaje que se aspiran a alcanzar. La rica diversidad de herramientas digitales a nuestra disposición nos permite diversificar los métodos evaluativos, adaptándose con precisión a los distintos contextos de aprendizaje y a las competencias específicas que deseamos evaluar (Lezcano, 2017).
         .col-5.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-49.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/unidad/img-26.png', alt='Texto que describa la imagen')
+      
+      #t_4_1.titulo-segundo(data-aos="flip-up")
+        div.d-flex
+          span.me-3 4.1
+          h2 Características de un buen instrumento de evaluación
 
-      .row.mb-4
-        .col-2.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-50.png', alt='Texto que describa la imagen')
-        .col-12.col-xl-10
-          .bg-verde-claro.p-4(data-aos='fade-up')
-            span El <b>aprendizaje personalizado</b> se centra en adaptar las experiencias de aprendizaje a las necesidades, preferencias y estilos de aprendizaje individuales de cada estudiante. En los entornos virtuales, esta tendencia se facilita mediante el uso de plataformas adaptativas que pueden ajustar el contenido y el ritmo de la instrucción en función del progreso del estudiante. 
-      .row.mb-4
-        .col-12.col-xl-10
-          .bg-verde.p-4(data-aos='fade-up')
-            span En esta tendencia, requiere de la flexibilización curricular y de la “desescolarización” de los procesos didácticos, lo que supone ruptura con las tareas predefinidas, productos predeterminados, actividades y las estrategias y recursos decididos de antemano (Núñez, 2016). Esto conlleva a los diseñadores educativos a replantearse la forma en que se vienen diseñando los procesos educativos y empezar a buscar otras estrategias.
-        .col-2.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-51.png', alt='Texto que describa la imagen')
-          
-      p.mb-4 El <b>microaprendizaje</b> puede ser una estrategia para facilitar el aprendizaje personalizado en entornos virtuales, permitiendo a los alumnos elegir el contenido más relevante para sus necesidades. La provisión de apoyo y guía que disminuye gradualmente a medida que los estudiantes adquieren experiencia también se alinea con los principios del aprendizaje personalizado.
+      p.mb-4 Las características de un buen instrumento de evaluación, son:
 
       .row.position-relative.mb-5.py-4.bg-fondo-slider.bg-full-width
         div.px-4.px-md-5.py-md-3
@@ -31,88 +24,152 @@
             .row.p-4.px-md-5.py-lg-5.justify-content-between
               .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
                 figure
-                  img(src='@/assets/curso/unidad/img-52.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/unidad/img-27.png', alt='Texto que describa la imagen') 
               .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
-                p.text-bold Primer tema
-                p Es un enfoque orientado a la actividad y capaz de proporcionar aprendizaje en partes pequeñas (Skalka et al., 2021), lo que permite una rotación regular de microcontenidos y microactividades; estos autores especifican que el microcontenido suele presentarse como texto breve, a veces enriquecido con imágenes, tablas, diagramas o códigos fuente, mientras que las microactividades requieren interacciones del usuario (Viviana Betancur-Chicué, 2023).
+                p.text-bold Claridad
+                p Un instrumento de evaluación eficaz debe comunicar con transparencia y sencillez qué se espera del estudiante en términos de desempeño y cómo se valorarán sus logros. Las instrucciones deben ser inequívocas y los criterios de evaluación deben ser explícitos y comprensibles para los estudiantes desde el inicio de la actividad.
             .row.p-4.px-md-5.py-lg-5.justify-content-between
               .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
                 figure
-                  img(src='@/assets/curso/unidad/img-53.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/unidad/img-28.png', alt='Texto que describa la imagen') 
               .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
-                p.text-bold Segundo tema
-                p El <b>microaprendizaje</b> implica la entrega de contenido educativo en pequeñas unidades o "píldoras" enfocadas. Esta tendencia reconoce que los estudiantes a menudo tienen tiempo limitado y prefieren consumir información de manera rápida y eficiente. En el diseño curricular virtual, el microaprendizaje se puede implementar a través de videos cortos, infografías, cuestionarios interactivos y otros formatos concisos que permiten a los estudiantes aprender a su propio ritmo y en momentos diversos.
+                p.text-bold Objetividad 
+                p Para minimizar la influencia de la subjetividad en el proceso de calificación, es crucial establecer criterios de evaluación precisos y escalas de valoración bien definidas (por ejemplo, rúbricas con descriptores de desempeño claros para cada nivel). Esto asegura una mayor consistencia en la evaluación entre diferentes evaluadores y a lo largo del tiempo.
+            .row.p-4.px-md-5.py-lg-5.justify-content-between
+              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/unidad/img-29.png', alt='Texto que describa la imagen') 
+              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+                p.text-bold Relevancia
+                p El instrumento de evaluación debe estar directamente relacionado con las competencias y los objetivos de aprendizaje establecidos para el curso o la actividad específica. Debe medir aquello que realmente se pretende que los estudiantes aprendan y sean capaces de hacer al finalizar el proceso formativo.
+            .row.p-4.px-md-5.py-lg-5.justify-content-between
+              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/unidad/img-30.png', alt='Texto que describa la imagen') 
+              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+                p.text-bold Validez y confiabilidad
+                p Un buen instrumento debe medir lo que se propone evaluar (validez) y hacerlo de manera consistente a lo largo del tiempo y entre diferentes aplicaciones (confiabilidad). Esto asegura que las conclusiones sobre el aprendizaje de los estudiantes sean precisas y significativas.
+
+      #t_4_2.titulo-segundo(data-aos="flip-up")
+        div.d-flex
+          span.me-3 4.2
+          h2 Tipos de instrumentos más comunes
+
+      p.mb-4 Los tipos de instrumentos de evaluación más comunes son:
 
       .row.mb-4
-        .col-12.col-xl-8
-          .d-flex.bg-morado-claro.p-4.flex-column.flex-md-row.mb-4(data-aos='fade-up')
-            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-54.svg', alt='Texto descriptivo de la imagen')
+        .col-12.col-lg-7.col-xl-8
+          AcordionA(tipo="b")
+            .div(titulo="Rúbricas")
+              p Las rúbricas son escalas de valoración que describen de manera detallada los diferentes niveles de desempeño para una serie de criterios específicos. Son particularmente útiles para evaluar habilidades complejas, productos de aprendizaje (como ensayos, presentaciones digitales o proyectos) y procesos de aprendizaje (como la participación en debates o el trabajo colaborativo en línea).
+            .div(titulo="Listas de cotejo")
+              p Estos instrumentos binarios (sí/no, presente/ausente) permiten verificar la presencia o ausencia de ciertos aspectos o elementos específicos en un trabajo o en el desempeño de un estudiante. Son útiles para evaluar habilidades procedimentales o la inclusión de componentes requeridos en una tarea.
+            .div(titulo="Cuestionarios")
+              p Las herramientas de cuestionarios en línea, con preguntas cerradas (opción múltiple, verdadero/falso, emparejamiento) u objetivas, son eficaces para evaluar la adquisición de conocimientos factuales y la comprensión conceptual. La retroalimentación automática que muchas plataformas ofrecen puede ser valiosa para el aprendizaje formativo.
+            .div(titulo="Portafolios digitales")
+              p La recopilación sistemática de trabajos realizados por el estudiante a lo largo del curso, presentada en formato digital, ofrece una rica evidencia de su proceso de aprendizaje, su progreso y su capacidad para reflexionar sobre su propio trabajo. Los portafolios pueden incluir una variedad de formatos (textos, imágenes, audios, videos) y permiten una evaluación holística del desarrollo de competencias.
+            .div(titulo="Foros evaluativos")
+              p Los foros de discusión en línea, cuando se diseñan con criterios de evaluación claros, pueden ser espacios valiosos para evaluar habilidades comunicativas, capacidad de argumentación, pensamiento crítico y la construcción colaborativa del conocimiento a través de la interacción con los pares y el docente (Valcárcel, 2012).
+        .col-12.col-lg-5.col-xl-4.d-none.d-lg-block(data-aos="zoom-in")
+          img(src='@/assets/curso/unidad/img-31.png', alt='Texto que describa la imagen')
+
+      #t_4_3.titulo-segundo(data-aos="flip-up")
+        div.d-flex
+          span.me-3 4.3
+          h2 Uso de retroalimentación
+
+      .row.mb-4
+        .col-5.d-none.d-xl-block
+          img(src='@/assets/curso/unidad/img-32.png', alt='Texto que describa la imagen')
+        .col-12.col-xl-7
+          p.mb-4 La retroalimentación es un componente intrínseco y fundamental del proceso de evaluación. Para ser efectiva, debe ser específica (centrada en aspectos concretos del trabajo), constructiva (sugiriendo formas de mejora), orientadora (guiando al estudiante hacia el logro de los objetivos) y oportuna (entregada en un momento en que el estudiante pueda utilizarla para mejorar su aprendizaje) (Pérez-Chaverri, 2016).
+          .d-flex.bg-morado.p-4.flex-column.flex-md-row.mb-4(data-aos='fade-up')
+            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-33.svg', alt='Texto descriptivo de la imagen')
             .my-auto.p-4.p-xl-0
-              p.pe-xl-3.mb-0 La <b>gamificación</b> consiste en la incorporación de elementos de diseño de juegos en contextos no lúdicos, como la educación, con el objetivo principal de maximizar el disfrute y el compromiso de los estudiantes, capturando su interés e inspirándolos a continuar aprendiendo. Al introducir elementos que hacen que el aprendizaje sea más interactivo y gratificante, la gamificación busca fomentar la motivación intrínseca, lo que lleva a una participación más activa y a una mayor probabilidad de que los estudiantes alcancen los objetivos de aprendizaje.
-          span La gamificación no se trata simplemente de hacer que el aprendizaje sea divertido, sino de utilizar los principios que hacen que los juegos sean atractivos para mejorar la experiencia educativa y los resultados del aprendizaje. 
-        .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-55.png', alt='Texto que describa la imagen')
+              p.pe-xl-3.mb-0 En los EVA, la retroalimentación puede proporcionarse a través de comentarios escritos en las tareas entregadas, mensajes de audio o video, o la participación activa del docente en los foros de discusión.
 
-      .row.bg-azul-oscuro.bg-full-width.py-4.mb-4
-        div.px-5.pb-md-3.py-4.d-flex
-          .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="zoom-in")
-            img.h-100(src='@/assets/curso/unidad/img-56.png', alt='Texto que describa la imagen')
-          .col-12.col-xl-7.d-flex.ps-4.ps-xl-5.align-items-center.flex-column
-            h2.mb-4.pb-2.me-auto Elementos claves del diseño de juegos aplicables a la educación virtual
-            p.mb-5(data-aos="fade-up") La incorporación de elementos de diseño de juegos en entornos educativos virtuales ha demostrado ser una estrategia eficaz para potenciar la motivación y el compromiso de los estudiantes. En el PDF Elementos claves del diseño de juegos aplicables a la educación virtual, se analizan recursos como los sistemas de puntos, insignias, desafíos, narrativas y tablas de clasificación, que permiten transformar el proceso de aprendizaje en una experiencia más dinámica y significativa. Este enfoque gamificado fomenta la participación activa, el logro de metas y la conexión emocional con los contenidos.
-            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_juegos_aplicables.pdf')" target="_blank")
-              img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
-              p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Elementos claves del diseño de juegos aplicables a la educación virtual
+      #t_4_4.titulo-segundo(data-aos="flip-up")
+        div.d-flex
+          span.me-3 4.4
+          h2 Evaluación auténtica
 
       .row.mb-4
-        .col-12.col-xl-9
-          h2 Desafíos y consideraciones importantes al implementar la gamificación 
-          p.mb-4 Si bien la gamificación ofrece numerosos beneficios potenciales para el diseño curricular virtual, su implementación exitosa no está exenta de desafíos y requiere una cuidadosa consideración de varios factores.
-          .bg-amarillo.p-4(data-aos='fade-up')
-            span Uno de los desafíos principales es asegurar que los elementos del juego estén alineados de manera efectiva con los objetivos de aprendizaje del curso. El objetivo de la gamificación debe ser mejorar el aprendizaje, no simplemente entretener a los estudiantes. Si los elementos del juego no están intrínsecamente ligados al contenido educativo, pueden terminar distrayendo a los estudiantes del material principal y comprometiendo los resultados del aprendizaje.
-        .col-3.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-57.png', alt='Texto que describa la imagen')
+        .col-12.col-lg-10.mx-auto
+          .row.bg-azul.p-4.py-xl-0(data-aos='fade-up')
+            .col-12.col-xl-7.d-flex
+              .my-auto 
+                span La evaluación auténtica promueve el diseño de tareas y situaciones de evaluación que se asemejen a contextos reales o simulados en los que el estudiante deberá aplicar los conocimientos, resolver problemas complejos o tomar decisiones fundamentadas.
+                
+            .col-5.d-none.d-xl-block
+              img(src='@/assets/curso/unidad/img-34.png', alt='Texto descriptivo de la imagen')  
+          .row.bg-azul-oscuro.p-4.py-xl-0(data-aos='fade-up')
+            .col-5.d-none.d-xl-block
+              img(src='@/assets/curso/unidad/img-35.png', alt='Texto descriptivo de la imagen')  
+            .col-12.col-xl-7.d-flex
+              .my-auto 
+                span Estas estrategias favorecen el desarrollo de competencias que son transferibles a contextos laborales y sociales reales, aumentando la relevancia y el significado del aprendizaje en entornos virtuales (Garcia Peña, 2021).
 
-      .row.mb-4
-        .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-58.png', alt='Texto que describa la imagen')
-        .col-12.col-xl-8
-          h2 El uso de la Inteligencia Artificial (IA)
-          .bg-verde.p-4(data-aos='fade-up')
-            span La Inteligencia Artificial (IA) se ha definido en el contexto educativo como el uso de algoritmos inteligentes para apoyar y mejorar los procesos de enseñanza y aprendizaje. Esta tecnología emergente está encontrando aplicaciones en diversas áreas de la educación digital, ofreciendo el potencial de transformar la manera en que se diseñan, se entregan y se experimentan los cursos virtuales. La IA tiene la capacidad de personalizar el aprendizaje a una escala sin precedentes, automatizar tareas que consumen tiempo para los educadores y ofrecer nuevas formas de interacción y retroalimentación para los estudiantes. A medida que la tecnología de la IA continúa avanzando, su integración en el diseño curricular virtual se vuelve cada vez más relevante.
+      p.mb-4 Ejemplos de evaluación auténtica en EVA incluyen la creación de un plan de marketing digital, el diseño de una solución tecnológica para un problema específico, o la elaboración de un informe basado en el análisis de datos reales.
+      p.mb-4 <b>Tabla 4.</b> Diferentes aspectos
 
-      .row.bg-azul-oscuro.bg-full-width.py-4.mb-5
-        div.px-5.pb-md-3.py-4.d-flex
-          .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
-            h2.mb-4.pb-2.me-auto Contribución de la IA a la generación automatizada de contenido educativo
-            p.mb-5(data-aos="fade-up") La Inteligencia Artificial ha comenzado a desempeñar un papel transformador en el ámbito educativo, especialmente en el diseño curricular virtual. En el PDF Contribución de la IA a la generación automatizada de contenido educativo, se examinan las herramientas y estrategias basadas en IA que permiten crear materiales personalizados, ofrecer retroalimentación inmediata y adaptar la experiencia de aprendizaje a las necesidades de cada estudiante. Este recurso también aborda sus ventajas, limitaciones y retos éticos, brindando una visión crítica sobre su aplicación en entornos digitales.
-            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_generacion_automatizada.pdf')" target="_blank")
-              img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
-              p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Contribución de la IA a la generación automatizada de contenido educativo
-          .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="zoom-in")
-            img.h-100(src='@/assets/curso/unidad/img-59.png', alt='Texto que describa la imagen')
+      .tabla-a
+        table
+          thead
+            tr
+              th.text-bold.bg-morado-2.text-white.text-center Aspecto 
+              th.text-bold.bg-morado-2.text-white.text-center Descripción clave
+              th.text-bold.bg-morado-2.text-white.text-center Ejemplos o elementos asociados
+          tbody
+            tr
+              td.text-bold.bg-morado-claro Características de un buen instrumento de evaluación.
+              td.bg-morado-claro Deben ser claros, objetivos, relevantes, y con validez y confiabilidad.
+              td.bg-morado-claro 
+                div.d-flex
+                  img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').m-2
+                  p.mb-0 Instrucciones comprensibles.
+                div.d-flex
+                  img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').m-2
+                  p.mb-0 Criterios definidos (rúbricas).
+                div.d-flex
+                  img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').m-2
+                  p.mb-0 Relación con competencias. 
+                div.d-flex
+                  img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').m-2
+                  p.mb-0 Resultados precisos y repetibles.
+            tr
+              td.text-bold.bg-morado-claro Tipos de instrumentos de evaluación.
+              td.bg-morado-claro Diferentes herramientas permiten evaluar diversas competencias y formatos de aprendizaje.
+              td.bg-morado-claro 
+                div.d-flex
+                  img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').m-2
+                  p.mb-0 Rúbricas: niveles de desempeño.
+                div.d-flex
+                  img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').m-2
+                  p.mb-0 Listas de cotejo: verificación sí/no.
+                div.d-flex
+                  img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').m-2
+                  p.mb-0 Cuestionarios: opción múltiple, VF.
+                div.d-flex
+                  img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').m-2
+                  p.mb-0 Portafolios digitales.
+                div.d-flex
+                  img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').m-2
+                  p.mb-0 Foros evaluativos.
+            tr
+              td.text-bold.bg-morado-claro Retroalimentación.
+              td.bg-morado-claro Es esencial, debe ser específica, constructiva, orientadora y oportuna.
+              td.bg-morado-claro Comentarios escritos, audios, videos, participación en foros.
+            tr
+              td.text-bold.bg-morado-claro Evaluación auténtica.
+              td.bg-morado-claro Simula contextos reales; fomenta el uso práctico de los conocimientos y el desarrollo de competencias transferibles.
+              td.bg-morado-claro Diseñar un plan, resolver un caso, analizar datos reales.
+
 
       .bg-full-width.border-top.actividad(style='background-color: #ebf1f5; border-top: 5px solid #f5c145 !important')
         .p-4.p-md-5
           #Actividad
             <Actividad :cuestionario='cuestionario'/>
 
-      .bg-full-width.border-top-9-azul
-        .px-5.pt-5.pb-0
-          h2 Material complementario
-          .row
-            .col-12.col-md-6.col-lg-8
-              p.d-flex.my-4
-                img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-                a.text-small.text-primary(target="_blank", href="https://dialnet.unirioja.es/servlet/articulo?codigo=6566734") Burgos, J. B. (2018). Diseño pedagógico de la educación digital para la formación del profesorado. RELATEC: revista latinoamericana de tecnología educativa, 17(1), 41-60.
-              p.d-flex.my-4
-                img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-                a.text-small.text-primary(target="_blank", href="https://youtu.be/Q9qwguSodFQ?si=GXpCp8TT5AOHW8M-") [Vídeo] Rodas, M. (2020, 21 de octubre) Tendencias Educativas y Digitales para el 2021.
-            .col-12.col-md-6.col-lg-3
-              figure
-                img(src='@/assets/componentes/material-complementario.svg' alt='Imagen de material complementario')
-      
-  
 </template>
 
 <script>
