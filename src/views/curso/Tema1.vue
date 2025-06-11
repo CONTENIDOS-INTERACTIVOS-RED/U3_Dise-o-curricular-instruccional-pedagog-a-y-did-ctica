@@ -52,7 +52,7 @@
     p.mb-4 En la siguiente tabla, repase los principios de planificación curricular en educación virtual.
     p.mb-4 <b>Tabla 1.</b> Principios de planificación curricular en educación virtual
 
-    .tabla-a
+    .tabla-a.mb-5
       table
         thead
           tr
@@ -80,6 +80,31 @@
             td.text-bold.bg-morado-claro Evaluación formativa y continua.
             td.bg-morado-claro La evaluación apoya y mejora el aprendizaje a lo largo del proceso.
             td.bg-morado-claro Integrar la evaluación en la enseñanza, dar retroalimentación oportuna y relevante, promover la reflexión, usar variedad de métodos, involucrar a estudiantes, usar la evaluación para mejorar la enseñanza.
+
+    .bg-full-width.border-top-9-azul
+      .px-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' alt='Icono libro' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="http://repositorio.redrele.org/bitstream/24251239/57/1/Articulo_4_Warisata_N9V3.pdf") Reyes, J. (2021). Planificación educativa: una necesidad para el docente.
+            
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' alt='Icono enlace' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.repo-ciie.dfie.ipn.mx/pdf/953.pdf") Araque, I., Montilla, L., Meleán, R., & Arrieta, X. (2018). Hernández, J. A. M., Salgado, A. R. R., & Ayala, J. H. Innovación De Planes y Programas Basados En Competencias y En El Aprendizaje Centrado En El Alumno.
+            
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' alt='Icono libro' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/272421") Martínez, I. (Et al) (2024) Didáctica de la educación superior virtual: actualidad y perspectivas. Editorial Tecnocientífica Americana.
+            
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' alt='Icono video' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=FcnRXo24AEI&ab_channel=Dra.Ver%C3%B3nicaDur%C3%A1n") [Vídeo] Dra. Verónica Durán. (2020, 21 de junio) Planeación didáctica para la educación en línea, generalidades
+          
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg' alt='Imagen de material complementario')    
 
     p
 

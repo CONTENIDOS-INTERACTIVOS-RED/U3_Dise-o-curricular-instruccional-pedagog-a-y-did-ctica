@@ -165,10 +165,37 @@
               td.bg-morado-claro Diseñar un plan, resolver un caso, analizar datos reales.
 
 
-      .bg-full-width.border-top.actividad(style='background-color: #ebf1f5; border-top: 5px solid #f5c145 !important')
+      .bg-full-width.border-top.actividad.mb-5(style='background-color: #ebf1f5; border-top: 5px solid #f5c145 !important')
         .p-4.p-md-5
           #Actividad
             <Actividad :cuestionario='cuestionario'/>
+
+      .bg-full-width.border-top-9-azul
+        .px-5.pt-5.pb-0
+          h2 Material complementario
+          .row
+            .col-12.col-md-6.col-lg-8
+              p.d-flex.my-4
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' alt='Icono enlace' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://publicaciones.unpa.edu.ar/index.php/ictunpa/article/view/560") Lezcano, L., & Vilanova, G. (2017). Instrumentos de evaluación de aprendizaje en entornos virtuales. Perspectiva de estudiantes y aportes de docentes. Informes Científicos Técnicos-UNPA, 9(1), 1-36.
+              
+              p.d-flex.my-4
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' alt='Icono enlace' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://revistas.um.es/red/article/view/24721") Onrubia, J. (2005). Aprender y enseñar en entornos virtuales: actividad conjunta, ayuda pedagógica y construcción del conocimiento. Revista de Educación a distancia (RED).
+              
+              p.d-flex.my-4
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' alt='Icono libro' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/90692") Torres, A. (2015) La construcción de las estrategias de aprendizaje en la formación inicial del profesional de la educación desde los entornos virtuales de aprendizaje. Editorial Universitaria.
+              
+              p.d-flex.my-4
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' alt='Icono video' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=aWRC2vHLKss&ab_channel=MiradorUniversitarioUNAM") [Vídeo] Mirador Universitario UNAM. (2021, 07 de octubre) Evaluación para el aprendizaje en educación en línea | Temporada 3
+            
+            .col-12.col-md-6.col-lg-3
+              figure
+                img(src='@/assets/componentes/material-complementario.svg' alt='Imagen de material complementario')
+
+      p
 
 </template>
 
@@ -181,7 +208,7 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Unidad 1',
+      tema: 'Planificación y evaluación del diseño curricular en EVA',
       titulo: 'Ponte a prueba',
       introduccion:
         'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
@@ -190,33 +217,13 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál de las siguientes opciones describe mejor el concepto de currículo en el ámbito educativo formal?',
+            '¿Qué principio favorece la coherencia entre objetivos, contenidos y evaluación en educación virtual?',
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto:
-                'El conjunto de experiencias de aprendizaje informales que un estudiante adquiere fuera de la escuela.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto:
-                'El listado de asignaturas que un estudiante debe aprobar para obtener un título.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto:
-                'El plan de estudios que estructura los contenidos, objetivos, metodologías y evaluaciones de un programa educativo.',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto:
-                'La interacción entre estudiantes y profesores en un entorno de aprendizaje.',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Flexibilidad', esCorrecta: false },
+            { id: 'b', texto: 'Inclusividad', esCorrecta: false },
+            { id: 'c', texto: 'Interactividad', esCorrecta: false },
+            { id: 'd', texto: 'Alineación constructiva', esCorrecta: true },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
@@ -224,33 +231,13 @@ export default {
         {
           id: 2,
           texto:
-            '¿Qué se entiende por diseño instruccional en el contexto de la educación virtual?',
+            '¿Qué tipo de evaluación se aplica antes de iniciar un curso para conocer el nivel del estudiante?',
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto:
-                'La creación de materiales didácticos impresos para cursos en línea.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto:
-                'El proceso sistemático para planificar, diseñar, desarrollar e implementar el aprendizaje virtual para alcanzar objetivos definidos.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto:
-                'La simple digitalización de contenidos de cursos presenciales.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto:
-                'La gestión técnica de las plataformas de aprendizaje en línea.',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Sumativa', esCorrecta: false },
+            { id: 'b', texto: 'Formativa', esCorrecta: false },
+            { id: 'c', texto: 'Diagnóstica', esCorrecta: true },
+            { id: 'd', texto: 'Final', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
@@ -258,25 +245,13 @@ export default {
         {
           id: 3,
           texto:
-            'Un modelo de diseño curricular que se centra en el desarrollo de habilidades y capacidades específicas que los estudiantes deben demostrar en situaciones reales se conoce como:',
+            '¿Cuál herramienta permite crear contenido interactivo como cuestionarios y líneas de tiempo?',
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Modelo tecnológico.', esCorrecta: false },
-            {
-              id: 'b',
-              texto: 'Modelo comunicativo-interactivo.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Modelo basado en resultados de aprendizaje.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Modelo basado en competencias.',
-              esCorrecta: true,
-            },
+            { id: 'a', texto: 'Genially', esCorrecta: false },
+            { id: 'b', texto: 'Google Meet', esCorrecta: false },
+            { id: 'c', texto: 'H5P', esCorrecta: true },
+            { id: 'd', texto: 'Canva', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
@@ -284,21 +259,13 @@ export default {
         {
           id: 4,
           texto:
-            '¿Cuál de los siguientes componentes del currículo requiere una adaptación significativa al pasar de la educación presencial a la virtual para asegurar la participación activa de los estudiantes?',
+            '¿Qué instrumento es más adecuado para evaluar habilidades complejas en entornos virtuales?',
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'Los objetivos de aprendizaje.',
-              esCorrecta: false,
-            },
-            { id: 'b', texto: 'Los contenidos del curso.', esCorrecta: false },
-            {
-              id: 'c',
-              texto: 'La metodología de enseñanza.',
-              esCorrecta: true,
-            },
-            { id: 'd', texto: 'El sistema de evaluación.', esCorrecta: false },
+            { id: 'a', texto: 'Lista de cotejo', esCorrecta: false },
+            { id: 'b', texto: 'Cuestionario', esCorrecta: false },
+            { id: 'c', texto: 'Rúbrica', esCorrecta: true },
+            { id: 'd', texto: 'Foro', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
@@ -306,18 +273,13 @@ export default {
         {
           id: 5,
           texto:
-            '¿Cuál de las siguientes tendencias actuales en educación digital se centra en adaptar las experiencias de aprendizaje a las necesidades individuales de cada estudiante?',
+            '¿Cuál de las siguientes es una característica distintiva de la educación virtual?',
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Microaprendizaje.', esCorrecta: false },
-            { id: 'b', texto: 'Gamificación.', esCorrecta: false },
-            { id: 'c', texto: 'Aprendizaje personalizado.', esCorrecta: true },
-            {
-              id: 'd',
-              texto:
-                'Uso de inteligencia artificial para la gestión administrativa.',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Evaluación escrita', esCorrecta: false },
+            { id: 'b', texto: 'Flexibilidad', esCorrecta: true },
+            { id: 'c', texto: 'Rigor presencial', esCorrecta: false },
+            { id: 'd', texto: 'Uniformidad', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',

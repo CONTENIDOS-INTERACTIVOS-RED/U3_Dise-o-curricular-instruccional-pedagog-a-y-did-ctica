@@ -110,7 +110,7 @@
 
       p.mb-4 Con el fin de que repase los temas vistos sobre la evaluación y seguimiento del diseño instruccional, observe la siguiente infografía:
 
-      ImagenInfografica.color-secundario.mb-4.bg-white
+      ImagenInfografica.color-secundario.mb-5.bg-white
         template(v-slot:imagen)
           figure
             img(src='@/assets/curso/unidad/img-23.png', alt='Descripción de la imagen')
@@ -168,6 +168,31 @@
           div.d-flex
             img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').m-2
             p.mb-0 Herramientas: bitácoras del docente, logs de acceso y tiempo en plataforma, encuestas de satisfacción, análisis de interacciones en foros.
+
+      .bg-full-width.border-top-9-azul
+        .px-5.pt-5.pb-0
+          h2 Material complementario
+          .row
+            .col-12.col-md-6.col-lg-8
+              p.d-flex.my-4
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' alt='Icono enlace' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://rieoei.org/RIE/article/view/1443") Valcárcel, N. M., de Gregorio Cabellos, A., & Avilés, R. H. (2012). La evaluación del aprendizaje en entornos virtuales de enseñanza aprendizaje: notas para una reflexión. Revista Iberoamericana de Educación, 58(2), 1-16.
+              
+              p.d-flex.my-4
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' alt='Icono enlace' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://repositorio.grial.eu/bitstreams/f357a2e2-bdf2-4011-b933-f15c7670525b/download") García-Peñalvo, F. J. (2020). Evaluación del aprendizaje en entornos virtuales y remotos.
+              
+              p.d-flex.my-4
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' alt='Icono libro' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/6811") Moreno, D. (2006) El modelo de evaluación, intervención y análisis de procesos como propuesta de diseño instruccional. Editorial: Red Enseñanza e Investigación en Psicología.
+              
+              p.d-flex.my-4
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' alt='Icono video' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=nxk42TBAjC4&ab_channel=SelinCarrasco") [Vídeo] Selin Carrasco. (2020, 18 de mayo) Diseño Instruccional - sus etapas
+            
+            .col-12.col-md-6.col-lg-3
+              figure
+                img(src='@/assets/componentes/material-complementario.svg' alt='Imagen de material complementario')
 
       p
      

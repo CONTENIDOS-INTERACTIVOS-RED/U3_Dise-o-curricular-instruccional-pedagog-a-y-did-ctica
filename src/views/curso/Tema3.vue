@@ -33,7 +33,7 @@
       p.mb-4 Para que pueda repasar las herramientas digitales para el diseño y la gestión curricular, lo invito a revisar la siguiente tabla:
       p.mb-4 <b>Tabla 3.</b> Herramientas digitales para el diseño y la gestión curricular
 
-      .tabla-a
+      .tabla-a.mb-5
         table
           thead
             tr
@@ -61,6 +61,31 @@
               td.text-bold.bg-morado-claro Integración de herramientas.
               td.bg-morado-claro La selección debe responder a una estrategia pedagógica coherente. Se debe considerar la pertinencia según los objetivos de aprendizaje, así como la usabilidad y accesibilidad para todos los estudiantes. No se debe elegir por moda, sino por funcionalidad y valor pedagógico.
               td.bg-morado-claro Uso combinado,según estrategia.      
+
+      .bg-full-width.border-top-9-azul
+        .px-5.pt-5.pb-0
+          h2 Material complementario
+          .row
+            .col-12.col-md-6.col-lg-8
+              p.d-flex.my-4
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' alt='Icono enlace' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://www.rade.es/imageslib/PUBLICACIONES/ARTICULOS/V8N3%20-%2007%20-%20AC%20-%20APARICIO_RADE-MAPFRE.pdf") Gómez, Y. A. (2023). Innovación educativa y gestión curricular. Anales de la Real Academia de Doctores.
+              
+              p.d-flex.my-4
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' alt='Icono enlace' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://reunir.unir.net/handle/123456789/14158") Mosquera Gende, I. (2022). Herramientas digitales colaborativas para la formación de futuros docentes en una universidad online.
+              
+              p.d-flex.my-4
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' alt='Icono libro' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/33446") Gros, B. (2011) Evolución y retos de la educación virtual: construyendo el e-learning del siglo XXI. Editorial UOC.
+              
+              p.d-flex.my-4
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' alt='Icono video' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=b5CftFqJ7qo&ab_channel=INDEE") [Vídeo] INDEE. (2022, 22 de marzo) Integración de las tecnologías digitales en la gestión educativa
+            
+            .col-12.col-md-6.col-lg-3
+              figure
+                img(src='@/assets/componentes/material-complementario.svg' alt='Imagen de material complementario')
 
       p
   
