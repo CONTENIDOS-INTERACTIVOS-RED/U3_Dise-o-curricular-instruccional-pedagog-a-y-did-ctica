@@ -16,9 +16,9 @@
             .col-12.col-xl-6
               p.mb-4 Para continuar con el estudio de la temática, lo invitamos a escuchar el siguiente pódcast.
               TarjetaAudio.color-secundario.bg-white.mb-3(
-                texto='Texto descriptivo del audio'
+                texto='Diseño curricular instruccional, pedagogía y didáctica'
                 tiempo
-                :audio="require('../../assets/componentes/audios/audio-ej.mp3')"
+                :audio="require('../../assets/componentes/audios/Diseño_curricular_Podcast.mp3')"
                 @audio-hover='mostrarIndicadorTarjetaAudio = false'
               )
             .col-6.d-none.d-xl-block

@@ -133,78 +133,102 @@ export default {
   referencias: [
     {
       referencia:
-        'Belloch, C. (S.f.). Diseño Instruccional. Obtenido de https://www.uv.es/bellochc/pedagogia/EVA4.pdf',
-      link: 'https://www.uv.es/bellochc/pedagogia/EVA4.pdf',
-    },
-    {
-      referencia:
-        'UNESCO. (2016). Qué hace el currículo de calidad. Obtenido de UNESDOC Biblioteca Digital: https://unesdoc.unesco.org/ark:/48223/pf0000243975_spa',
-      link: 'https://unesdoc.unesco.org/ark:/48223/pf0000243975_spa',
-    },
-    {
-      referencia:
-        'González Bernal, M. I. (2006). Currículo basado en competencias: una experiencia en educación universitaria. Educación y Educadores , 9 (2), 95-117., 95-117. Obtenido de https://www.redalyc.org/pdf/834/83490209.pdf',
-      link: 'https://www.redalyc.org/pdf/834/83490209.pdf',
-    },
-    {
-      referencia:
-        'Márquez-Fúnes, K., & Florez-Nisperuza, EP. (2021). Perspectivas curriculares y didácticas de las salidas de campo en las licenciaturas en Ciencias Sociales del Caribe. Entramado, 17(1), 136-148. Obtenido de https://doi.org/10.18041/1900-3803/entramado.1.7160',
-      link: 'https://doi.org/10.18041/1900-3803/entramado.1.7160',
-    },
-    {
-      referencia:
-        'Martínez-Sum, S. d. (2019). Diseño, desarrollo e innovación del currículum en la. Proceedings of the Digital World Learning Conference CIEV. Obtenido de http://biblioteca.galileo.edu/tesario/bitstream/123456789/958/1/10.pdf',
+        'Silva Quiroz, J. y. (2017). Una propuesta de modelo para introducir metodologías activas en educación superior. Innovación educativa (México, DF).',
       link:
-        'http://biblioteca.galileo.edu/tesario/bitstream/123456789/958/1/10.pdf',
+        'https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S1665-26732017000100117',
     },
     {
       referencia:
-        'Navarro Reyes, Y. P. (2010). Una mirada a la planificación estratégica curricular. Telos, 12(2), 202-2016. Obtenido de https://www.redalyc.org/pdf/993/99315569006.pdf',
-      link: 'https://www.redalyc.org/pdf/993/99315569006.pdf',
-    },
-    {
-      referencia:
-        'Luna Rizo, M., Ayala Ramírez, S., & Rosas Chávez, P. (2021). El Diseño Instruccional Elemento clave para la Innovación en el Aprendizaje: Modelos y Enfoques. Guadalajara. Obtenido de https://mta.udg.mx/sites/default/files/adjuntos/el_diseno_instruccional_interactivo.pdf',
+        'ProFuturo. (5 de abril de 2024). Modelos pedagógicos en la era digital.',
       link:
-        'https://mta.udg.mx/sites/default/files/adjuntos/el_diseno_instruccional_interactivo.pdf',
+        'https://profuturo.education/observatorio/enfoques/modelos-pedagogicos-en-la-era-digital/',
     },
     {
       referencia:
-        'García-Pinilla, J. I., Pineda Miranda, B. A., Rodríguez-Jiménez, O. R., & Nicholls-Rodríguez, D. (2023). Desarrollo de competencias tecnológicas en docentes utilizando un modelo de diseño instruccional. Educación y Educadores, 26(1), e2613. https://doi.org/10.5294/edu.2023.26.1.3',
-      link: 'https://doi.org/10.5294/edu.2023.26.1.3',
-    },
-    {
-      referencia:
-        'Lima, M. G. (2010). El modelo de diseño instruccional ASSURE aplicado a la educación a distancia. Tlatemoani: revista académica de investigación. Obtenido de https://dialnet.unirioja.es/servlet/articulo?codigo=7302838',
-      link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=7302838',
-    },
-    {
-      referencia:
-        'Molenda, M. (2003). En busca del esquivo modelo ADDIE. Indiana. Obtenido de https://www.researchgate.net/publication/251405713_In_search_of_the_elusive_ADDIE_model',
+        'Alejos, C. &. (2023). Estrategias metodológicas de enseñanza híbrida universitaria.',
       link:
-        'https://www.researchgate.net/publication/251405713_In_search_of_the_elusive_ADDIE_model',
+        'https://alicia.concytec.gob.pe/vufind/Record/UCVV_769f5e76bded871deca1ed7e9335c904',
     },
     {
       referencia:
-        'Gimeno Sacristán, J. (2010). ¿Qué significa el currículum? Sinéctica(34). Obtenido de https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S1665-109X2010000100009',
+        'Caballero, J. E. (2022). Herramientas digitales más eficaces en el proceso enseñanza-aprendizaje. Horizontes. Revista de Investigación En Ciencias de La Educación, 6(23), 669-678.',
       link:
-        'https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S1665-109X2010000100009',
+        'https://revistahorizontes.org/index.php/revistahorizontes/article/view/505',
     },
     {
       referencia:
-        'Ministerio de Educación Nacional. (S.f). Currículo. Obtenido de https://www.mineducacion.gov.co/1621/article-79413.html#:~:text=Curr%C3%ADculo%20es%20el%20conjunto%20de,las%20pol%C3%ADticas%20y%20llevar%20a',
-      link: 'https://www.mineducacion.gov.co/1621/article-79413.html',
+        'Sierra, C.A. (2012) Educación virtual, aprendizaje autónomo y construcción de conocimiento. Editorial Politécnico Grancolombiano.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/70988',
     },
     {
       referencia:
-        'Núñez, M. E. (2016). Tendencias en la personalización de los entornos de aprendizaje. Universidades, 66(70), 69-88. Obtenido de http://udualerreu.org/index.php/universidades/article/download/427/417',
+        'Anderson, T. y. (2011). Tres generaciones de pedagogía de educación a distancia. Revista Internacional de Investigación en Aprendizaje Abierto y Distribuido, 12(3), 80-97.',
       link:
-        'http://udualerreu.org/index.php/universidades/article/download/427/417',
+        'https://www.erudit.org/en/journals/irrodl/2011-v12-n3-irrodl05132/1067616ar/abstract/',
     },
     {
       referencia:
-        'Viviana Betancur-Chicué, V. (2023). Características del Diseño de Estrategias de microaprendizaje en escenarios educativos: revisión sistemática. RIED-Revista Iberoamericana de Educación a Distancia, 201-222. Obtenido de https://revistas.uned.es/index.php/ried/article/view/34056',
-      link: 'https://revistas.uned.es/index.php/ried/article/view/34056',
+        'ÉXITO EDUCATIVO . (31 de mayo de 2023). Redefiniendo la educación: La importancia de los enfoques innovadores en tiempos de crisis.',
+      link: 'https://exitoeducativo.net/importancia-enfoques-innovadores/',
+    },
+    {
+      referencia:
+        'Domínguez-Rodríguez, Y. (2022). Instrumentos y tipos de evaluación. Con-Ciencia Serrana Boletín Científico de la Escuela Preparatoria Ixtlahuaco, 37-39.',
+      link:
+        'https://repository.uaeh.edu.mx/revistas/index.php/ixtlahuaco/article/view/8460',
+    },
+    {
+      referencia:
+        'Sagastume, F. M.-S. (2019). La importancia del tutor en los cursos virtuales: experiencia, buenas prácticas y recomendaciones.',
+      link: 'http://biblioteca.galileo.edu/xmlui/handle/123456789/781',
+    },
+    {
+      referencia:
+        'Bates, A. (2015). Enseñar en la era digital: directrices para el diseño de la enseñanza y el aprendizaje. BCcampus.',
+      link:
+        'https://openlibrary-repo.ecampusontario.ca/jspui/handle/123456789/276',
+    },
+    {
+      referencia:
+        'Murcia, M. A. (2020) Diseño instruccional para profes: guía para la innovación educativa con TIC. Ediciones USTA.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/140725',
+    },
+    {
+      referencia:
+        'López García, C. &. (2017). Tema 2. Herramientas de creación de presentaciones. Reflexión sobre las herramientas Power Point, Prezi, Piktochart y Powtoon.',
+      link: 'http://dspace.unia.es/handle/10334/3859',
+    },
+    {
+      referencia:
+        'Cáceres, C. (Et Al) (2021) Aplicaciones de las plataformas de enseñanza virtual a la educación superior. Editorial Dykinson.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/175737',
+    },
+    {
+      referencia:
+        'Lezcano, L. &. (2017). Instrumentos de evaluación de aprendizaje en entornos virtuales. Perspectiva de estudiantes y aportes de docentes. Informes Científicos Técnicos-UNPA, 1-36.',
+      link:
+        'https://publicaciones.unpa.edu.ar/index.php/ictunpa/article/view/560',
+    },
+    {
+      referencia:
+        'Valcárcel, N. M. (2012). La evaluación del aprendizaje en entornos virtuales de enseñanza aprendizaje: notas para una reflexión. Revista Iberoamericana de Educación, 1-16.',
+      link: 'https://rieoei.org/RIE/article/view/1443',
+    },
+    {
+      referencia:
+        'Pérez-Chaverri, J. &.-S. (2016). Características de la retroalimentación como parte de la estrategia evaluativa durante el proceso de enseñanza aprendizaje en entornos virtuales: una perspectiva teórica. Revista Electrónica Calidad en la Educación Superior, 7(1), 175-204.',
+      link:
+        'https://revistas.uned.ac.cr/index.php/revistacalidad/article/view/1381',
+    },
+    {
+      referencia:
+        'Garcia Peña, K. E. (2021). Evaluación auténtica en entornos virtuales de aprendizaje en la educación técnico-productiva Cusco, 2021.',
+      link: 'https://repositorio.ucv.edu.pe/handle/20.500.12692/72381',
+    },
+    {
+      referencia:
+        'Ocampo, H. (2010) La evaluación del aprendizaje en la universidad, aportes de la educación virtual a los modelos clásicos. Editorial Universitaria.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/81101',
     },
   ],
   glosario: [
